@@ -1,2 +1,1 @@
-# SOSA Consulting & Services Website
-This is a Next.js project prepared for deployment on Vercel.
+# SOSA Consulting & Services Website\nDeploy on Vercel. Edit services, pricing, blog posts in `/components` and `/data`.
