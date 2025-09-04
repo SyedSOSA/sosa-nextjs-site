@@ -1,5 +1,1 @@
-# SOSA Consulting & Services Website
-
-- Tailwind config fixed (glob warning removed).
-- Empty `public/` folder included (required by Vercel).
-- Output Directory should be `.next` in Vercel settings.
+# SOSA Consulting & Services Website\n\nDeploy on Vercel. Framework preset: Next.js, Output Directory: `.next`. Blog posts in `/data/blog.json`. Images go to `/public`.
