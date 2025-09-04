@@ -1,22 +1,21 @@
 {
-  "name": "sosa-nextjs-site",
+  "name": "sosa-consulting-site",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.1.0",
+    "next": "13.5.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "framer-motion": "^10.16.4",
-    "lucide-react": "^0.344.0"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.0",
-    "postcss": "^8.4.38",
-    "autoprefixer": "^10.4.18"
+    "autoprefixer": "10.4.16",
+    "postcss": "8.4.27",
+    "tailwindcss": "3.3.3"
   }
 }

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Michael Page UAE",
+    "slug": "michaelpage",
+    "country": "UAE",
+    "sector": "Multi-sector",
+    "website": "https://www.michaelpage.ae/",
+    "verified": true
+  },
+  {
+    "name": "Robert Walters ME",
+    "slug": "robertwalters",
+    "country": "UAE",
+    "sector": "Finance & Tech",
+    "website": "https://www.robertwalters.ae/",
+    "verified": true
+  },
+  {
+    "name": "Naukrigulf",
+    "slug": "naukrigulf",
+    "country": "UAE",
+    "sector": "Job Board",
+    "website": "https://www.naukrigulf.com/",
+    "verified": true
+  },
+  {
+    "name": "LinkedIn Jobs India",
+    "slug": "linkedinjobsin",
+    "country": "India",
+    "sector": "Job Board",
+    "website": "https://in.linkedin.com/jobs",
+    "verified": true
+  },
+  {
+    "name": "ABC Consultants",
+    "slug": "abcconsultants",
+    "country": "India",
+    "sector": "Multi-sector",
+    "website": "https://www.abcconsultants.in/",
+    "verified": true
+  },
+  {
+    "name": "TASC Outsourcing",
+    "slug": "tasc",
+    "country": "UAE",
+    "sector": "Outsourcing",
+    "website": "https://tascoutsourcing.com/",
+    "verified": true
+  },
+  {
+    "name": "Hays UAE",
+    "slug": "hays",
+    "country": "UAE",
+    "sector": "Multi-sector",
+    "website": "https://www.hays.ae/",
+    "verified": true
+  },
+  {
+    "name": "GulfTalent",
+    "slug": "gulftalent",
+    "country": "UAE",
+    "sector": "Job Board",
+    "website": "https://www.gulftalent.com/",
+    "verified": true
+  },
+  {
+    "name": "Adecco Middle East",
+    "slug": "adecco",
+    "country": "UAE",
+    "sector": "Multi-sector",
+    "website": "https://www.adecco.ae/",
+    "verified": true
+  }
+]
