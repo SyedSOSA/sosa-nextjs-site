@@ -1,0 +1,127 @@
+[
+  {
+    "name": "DMCC Free Zone",
+    "slug": "dmcc",
+    "emirate": "Dubai",
+    "type": "Free Zone",
+    "website": "https://www.dmcc.ae/",
+    "services": [
+      "Licensing",
+      "Trading",
+      "Office Spaces"
+    ],
+    "verified": true
+  },
+  {
+    "name": "Dubai Silicon Oasis",
+    "slug": "dso",
+    "emirate": "Dubai",
+    "type": "Free Zone",
+    "website": "https://www.dsoa.ae/",
+    "services": [
+      "Tech Licensing",
+      "Innovation Hub"
+    ],
+    "verified": true
+  },
+  {
+    "name": "Dubai Mainland (DED)",
+    "slug": "ded",
+    "emirate": "Dubai",
+    "type": "Mainland",
+    "website": "https://ded.ae/",
+    "services": [
+      "Mainland Licensing",
+      "PRO Services"
+    ],
+    "verified": true
+  },
+  {
+    "name": "RAK Free Zone",
+    "slug": "rakfz",
+    "emirate": "Ras Al Khaimah",
+    "type": "Free Zone",
+    "website": "https://rakez.com/",
+    "services": [
+      "Licensing",
+      "Industrial",
+      "Warehousing"
+    ],
+    "verified": true
+  },
+  {
+    "name": "Abu Dhabi Global Market (ADGM)",
+    "slug": "adgm",
+    "emirate": "Abu Dhabi",
+    "type": "Free Zone",
+    "website": "https://www.adgm.com/",
+    "services": [
+      "Financial Services",
+      "Licensing",
+      "Legal"
+    ],
+    "verified": true
+  },
+  {
+    "name": "Sharjah Media City (Shams)",
+    "slug": "shams",
+    "emirate": "Sharjah",
+    "type": "Free Zone",
+    "website": "https://www.shams.ae/",
+    "services": [
+      "Media Licensing",
+      "Creative Services"
+    ],
+    "verified": true
+  },
+  {
+    "name": "Ajman Free Zone",
+    "slug": "ajmanfz",
+    "emirate": "Ajman",
+    "type": "Free Zone",
+    "website": "https://www.afz.ae/",
+    "services": [
+      "Licensing",
+      "Warehousing"
+    ],
+    "verified": true
+  },
+  {
+    "name": "Umm Al Quwain Free Trade Zone (UAQ FTZ)",
+    "slug": "uaqftz",
+    "emirate": "UAQ",
+    "type": "Free Zone",
+    "website": "https://uaqftz.com/",
+    "services": [
+      "Licensing",
+      "SMEs",
+      "Startups"
+    ],
+    "verified": true
+  },
+  {
+    "name": "Fujairah Creative City",
+    "slug": "fcc",
+    "emirate": "Fujairah",
+    "type": "Free Zone",
+    "website": "https://www.fccfujairah.ae/",
+    "services": [
+      "Media",
+      "Freelancers",
+      "Startups"
+    ],
+    "verified": true
+  },
+  {
+    "name": "Meydan Free Zone",
+    "slug": "meydan",
+    "emirate": "Dubai",
+    "type": "Free Zone",
+    "website": "https://www.meydanfz.ae/",
+    "services": [
+      "Licensing",
+      "E-commerce"
+    ],
+    "verified": true
+  }
+]
