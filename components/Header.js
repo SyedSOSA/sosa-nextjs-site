@@ -12,6 +12,7 @@ export default function Header() {
           <img src="/logos/sosa.svg" alt="SOSA" className="h-8 w-auto" />
         </Link>
         <nav className="flex items-center gap-6">
+          <Link href="/services">Services</Link>
           <Link href="/about">About</Link>
           <Link href="/recruiters">Recruiters</Link>
           <Link href="/business-setup">Business Setup</Link>
