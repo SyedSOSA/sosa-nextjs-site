@@ -1,0 +1,4 @@
+
+export default function Biz(){
+  return <p>Directory and support for UAE business setup including mainland and freezone options.</p>
+}

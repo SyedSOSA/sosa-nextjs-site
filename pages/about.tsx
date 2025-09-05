@@ -1,0 +1,4 @@
+
+export default function About(){
+  return <p>SOSA Consulting & Services, founded by Syed Ahamed, delivers career and business consulting solutions globally.</p>
+}
