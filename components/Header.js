@@ -1,21 +1,29 @@
-import Link from 'next/link';
+import Link from "next/link";
+import { useSupabaseClient, useUser } from "@supabase/auth-helpers-react";
 
-export default function Header(){
+export default function Header() {
+  const supabase = useSupabaseClient();
+  const user = useUser();
+
   return (
     <header className="bg-white border-b">
-      <div className="container-narrow py-4 flex items-center justify-between">
+      <div className="container flex items-center justify-between py-4">
         <Link href="/" className="flex items-center gap-2">
-          <div className="h-9 w-9 rounded-xl bg-indigo-600 text-white flex items-center justify-center font-extrabold">S</div>
-          <span className="font-extrabold text-lg">SOSA Consulting & Services</span>
+          <img src="/logos/sosa.svg" alt="SOSA" className="h-8 w-auto" />
         </Link>
-        <nav className="flex items-center gap-3 text-sm">
-          <Link className="hover:text-indigo-600 font-medium px-2 py-1" href="/">Home</Link>
-          <Link className="hover:text-indigo-600 font-medium px-2 py-1" href="/about">About</Link>
-          <Link className="hover:text-indigo-600 font-medium px-2 py-1" href="/recruiters">Recruiters</Link>
-          <Link className="hover:text-indigo-600 font-medium px-2 py-1" href="/business-setup">Business Setup</Link>
-          <Link className="hover:text-indigo-600 font-medium px-2 py-1" href="/contact">Contact</Link>
+        <nav className="flex items-center gap-6">
+          <Link href="/about">About</Link>
+          <Link href="/recruiters">Recruiters</Link>
+          <Link href="/business-setup">Business Setup</Link>
+          <Link href="/contact">Contact</Link>
+          {!user && <Link className="btn btn-primary" href="/auth/signin">Sign in</Link>}
+          {user && (
+            <button className="btn" onClick={async()=>{ await supabase.auth.signOut(); window.location.href="/"; }}>
+              Logout
+            </button>
+          )}
         </nav>
       </div>
     </header>
-  )
+  );
 }
