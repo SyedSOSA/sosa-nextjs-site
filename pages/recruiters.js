@@ -1,6 +1,10 @@
 import { createServerSupabaseClient } from "@supabase/auth-helpers-nextjs";
 import { useUser } from "@supabase/auth-helpers-react";
-import data from "../data/recruiters.json";
+
+const recruiters = [
+  { id: 1, name: "Alpha Talent Search", email: "contact@alphatalent.com", location: "Dubai, UAE" },
+  { id: 2, name: "Gulf HR Partners", email: "hello@gulfhrpartners.ae", location: "Abu Dhabi, UAE" }
+];
 
 export default function Recruiters() {
   const user = useUser();
@@ -9,7 +13,7 @@ export default function Recruiters() {
       <h1 className="text-2xl font-bold mb-6">Recruiter Directory</h1>
       <p className="mb-6 text-sm text-gray-600">Signed in as {user?.email}</p>
       <div className="grid md:grid-cols-2 gap-4">
-        {data.map(item => (
+        {recruiters.map(item => (
           <div key={item.id} className="card">
             <h3 className="text-lg font-semibold">{item.name}</h3>
             <p className="text-sm text-gray-600">{item.location}</p>
