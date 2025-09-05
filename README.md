@@ -1,2 +1,2 @@
-# SOSA Fixed Site
-Simple Next.js + Tailwind site, ready to deploy on Vercel.
+# SOSA Fixed Site (JavaScript)
+Next.js + Tailwind, no TypeScript, deploy-ready for Vercel.

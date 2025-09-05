@@ -1,5 +1,5 @@
 {
-  "name": "sosa-fixed-site",
+  "name": "sosa-fixed-site-js",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -15,7 +15,6 @@
   "devDependencies": {
     "tailwindcss": "3.4.7",
     "autoprefixer": "10.4.19",
-    "postcss": "8.4.38",
-    "typescript": "5.4.5"
+    "postcss": "8.4.38"
   }
 }
